@@ -17,7 +17,7 @@ function shareKakao() {
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
-      imageUrl:'../img/ogimg.png', // ogimage경로
+      imageUrl:'https://band-test.com/img/ogimg.png', // ogimage경로
       imageWidth: 800,
       imageHeight: 400,
       title: '밴드 적성 검사 - 나의 결과는?',
