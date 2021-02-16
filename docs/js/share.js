@@ -17,11 +17,11 @@ function shareKakao() {
   Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
-      imageUrl:'../img/ogimg.png', // ogimage경로
+      imageUrl:'img/ogimg.png', // ogimage경로
       title: '밴드 적성 검사 - 나의 결과는?',
       description: '나와 잘 맞는 악기가 무엇인지 테스트해보세요!',
       link: {
-        mobileUrl: 'https://meesoee.github.io/band-test/',
+        mobileWebUrl: 'https://meesoee.github.io/band-test/',
         webUrl: 'https://meesoee.github.io/band-test/'
       }
     },
@@ -29,7 +29,7 @@ function shareKakao() {
       {
         title: '나도 테스트하기',
         link: {
-          mobileUrl: 'https://meesoee.github.io/band-test/',
+          mobileWebUrl: 'https://meesoee.github.io/band-test/',
           webUrl: 'https://meesoee.github.io/band-test/'
         }
       }
