@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/result.css">
+    <meta property="og:image" content="img/ogimg.png">
+    <meta property="og:image:width" content="800"/>
+    <meta property="og:image:height" content="400"/>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="https://kit.fontawesome.com/e160cae21e.js" crossorigin="anonymous"></script>
+    <title>나의 밴드 적성은? &#127928;리드기타!&#127928;</title>
+  </head>
+  <body>
+    <div class="container body my-result">
+      <h1 class="logo">밴드 적성 검사</h1>
+      <h3>당신의 결과는...</h3>
+      <div class="title shadow">
+        <img src="img/lead.png" alt="리드기타를 맡은 기린">
+        <h1>리드 기타</h1>
+        <p class="description">화려한 기술과 음색을 뽐내고 싶은 당신에겐 리드 기타 포지션을!</p>
+        <div class="result">
+          <p>끓어 오르는 에너지를 보여주고 싶은 당신, 밴드의 꽃인 리드기타 포지션을 잡아보는 것은 어때요?</p>
+          <p>멋진 악기로 시선을 끌 수 있을 뿐더러, 화려한 스킬까지 자유롭게 보여줄 수 있으니까요! 기타솔로 연주로 한껏 주목받을 수도 있겠죠, 자신의 열정을 마구마구 뽐내보세요! 자신있게 연주할 수록 음악을 멋지게 꾸밀 수 있는 포지션인 만큼 당당한 연주가 핵심!</p>
+        </div>
+      </div>
+      <div class="recommend shadow">
+        <h3>이 포지션은 어때요?</h3>
+        <img src="img/keyboard.png" alt="키보드를 두드리는 코뿔소">
+        <h4>키보드</h4>
+        <p>화음을 넣을수 있을 뿐더러, 화려한 솔로역시 거뜬한 키보드 포지션도 눈여겨 보세요~</p>
+      </div>
+      <div class="recommend shadow">
+        <h3>나와 잘 어울리는 포지션</h3>
+        <img src="img/bass.png" alt="베이스를 연주하는 코끼리">
+        <h4>베이스</h4>
+        <p>뭐니뭐니해도 기타의 짝꿍은 베이스! 베이스와 함께라면 서로의 부족한 부분을 보완해줘 더욱 빛나는 연주가 될거예요!</p>
+      </div>
+    </div>
+    <div class="container share">
+      <h3>내 결과 공유하기</h3>
+      <div class="wrap">
+        <a href="javascript:shareFacebook();" alt="페이스북 공유" id="facebookLink"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:shareTwitter();" alt="트위터 공유" id="twitterLink"><i class="fab fa-twitter"></i></a>
+        <a id="kakaoLink" href="javascript:shareKakao();" alt="카카오톡 공유"><i class="fas fa-comment"></i></a>
+      </div>
+      <input type="text" id="urlBlank" value="https://meesoee.github.com/band-test/docs/result-lead.html">
+      <button onclick="urlCopy();" id="urlButton" alt="공유주소 복사"><i class="fas fa-link"></i>링크 복사</button>
+    </div>
+    <div class="container bg-none">
+      <a href="index.html" alt="테스트 다시하기" class="default point shadow">테스트 다시하기</a>
+    </div>
+    <div class="container footer bg-none" tabindex="0">
+      <p>본 테스트는 전문적 근거가 없으며 오로지 재미만을 위한 테스트이니 테스트 결과에 대해 맹신하지 않기를 바랍니다.</p>
+      <a href="info.html" class="info bg-none">개발 및 라이선스 정보</a>
+      <div class="meesoee">
+        <p>Developer & Designer<br><span>meesoee<span></p>
+        <a href="https://github.com/meesoee" target="_blank" alt="깃허브 링크"><i class="fab fa-github-alt"></i></a>
+        <a href="mailto:meesoeee@gmail.com" target="_blank" alt="메일 링크"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/share.js"></script>
+  </body>
+</html>

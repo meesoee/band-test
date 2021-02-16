@@ -1,0 +1,194 @@
+@charset "utf-8";
+@import url(http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.strong {
+  font-weight: 900;
+}
+
+.shadow {
+  box-shadow: -2px -2px 5px rgba(255,255,255,.1), 2px 2px 10px rgba(0,0,0,.05);
+}
+
+html {
+  min-height: 100%;
+  background-image: url('../img/bg-pattern.png'), linear-gradient(135deg, #2470ff, #4bf0ff);
+  word-break: keep-all;
+}
+
+body {
+  font-family: 'Nanum Barun Gothic';
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'MaplestoryOTFBold';
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: .5rem;
+  color: #fff;
+}
+
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.75rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.25rem;}
+
+p {
+  margin-bottom: .25rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.container.body {
+  min-height: 500px;
+}
+
+a {
+  display: block;
+  font-family: 'MaplestoryOTFBold';
+  color: #006CFF;
+  background: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 3rem;
+}
+
+a.default {
+  font-size: 2.5rem;
+}
+
+a.point:hover {
+  background: #006CFF;
+  color: #fff;
+  transition: all .15s ease-in-out;
+}
+
+button {
+  font-family: 'MaplestoryOTFBold';
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-none {
+  border: none;
+  background: none;
+}
+
+/* 콘텐츠 설정 */
+
+.logo {
+  margin: 0 auto;
+  max-width: 500px;
+  height: 180px;
+  background: url('../img/title.svg') no-repeat center center/100%;
+  font-size: 0;
+}
+
+.sub {
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.sub img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.info {
+  margin: 1rem 0;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.info ul {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+.info h4 {
+  color: #333;
+  margin-top: 1rem;
+}
+
+.info p:last-child {
+  margin-top: 3rem;
+}
+
+.info + a:hover {
+  background: #eee;
+}
+
+.footer {
+  color: #fff;
+  font-size: 11px;
+}
+
+.footer > a.info {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Nanum Barun Gothic';
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+.footer > a.info:hover {
+  background: none;
+  color: #eee;
+}
+
+.footer .meesoee span {
+  font-weight: bolder;
+}
+
+.footer .meesoee a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  padding: 10px 5px 0px;
+  background: #ccc;
+  color: #fff;
+}
+
+.footer .meesoee a:hover {
+  background: #999;
+}
+
+.footer .meesoee a i {
+  font-size: 15px;
+}
+
+@media (max-width : 768px) {
+  .container {
+    width: 80%;
+  }
+}

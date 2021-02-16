@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/result.css">
+    <meta property="og:image" content="img/ogimg.png">
+    <meta property="og:image:width" content="800"/>
+    <meta property="og:image:height" content="400"/>
+    <script src="https://kit.fontawesome.com/e160cae21e.js" crossorigin="anonymous"></script>
+    <title>나의 밴드 적성은? &#129345;드럼!&#129345;</title>
+  </head>
+  <body>
+    <div class="container body my-result">
+      <h1 class="logo">밴드 적성 검사</h1>
+      <h3>당신의 결과는...</h3>
+      <div class="title shadow">
+        <img src="img/drum.png" alt="드럼을 두드리는 곰">
+        <h1>드럼</h1>
+        <p class="description">책임감 넘치는 당신에게 어울리는 포지션은 밴드의 주축인 드럼!</p>
+        <div class="result">
+          <p>내재된 에너지를 폭발시킬 수 있는 당신에겐 심장이 울리는 타격감을 가진 드럼 포지션이 잘어울려요! 밴드의 기둥이기에 당신의 박자 하나하나가 곡의 리듬감을 좌우할테니, 정확한 박자감을 가진 당신에게 안성맞춤인 포지션이죠! 때로는 깐깐할지라도 드럼스틱만 잡으면 흥을 주체 못하는 에너지를 보여주는 열정적인 사람이예요.</p>
+        </div>
+      </div>
+      <div class="recommend">
+        <h3>이 포지션은 어때요?</h3>
+        <img src="img/bass.png" alt="베이스를 연주하는 코끼리">
+        <h4>베이스</h4>
+        <p>당신의 리듬감을 따라 움직이는 포지션인 만큼, 박자감을 잘 캐치하는 당신에게 베이스 포지션을 추천해요!</p>
+      </div>
+      <div class="recommend">
+        <h3>나와 잘 어울리는 포지션</h3>
+        <img src="img/vocal.png" alt="노래를 부르는 물소">
+        <h4>보컬</h4>
+        <p>서로의 호흡을 살피며 정박자와 엇박자를 넘나들게 되는 포지션들이예요, 그런만큼 보컬은 당신을 든든하게 믿고 있답니다!</p>
+      </div>
+    </div>
+    <div class="container share">
+      <h3>내 결과 공유하기</h3>
+      <div class="wrap">
+        <a href="javascript:shareFacebook();" alt="페이스북 공유" id="facebookLink"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:shareTwitter();" alt="트위터 공유" id="twitterLink"><i class="fab fa-twitter"></i></a>
+        <a id="kakaoLink" href="javascript:shareKakao();" alt="카카오톡 공유"><i class="fas fa-comment"></i></a>
+      </div>
+      <input type="text" id="urlBlank" value="https://meesoee.github.com/band-test/docs/result-drum.html">
+      <button onclick="urlCopy();" id="urlButton" alt="공유주소 복사"><i class="fas fa-link"></i>링크 복사</button>
+    </div>
+    <div class="container bg-none">
+      <a href="index.html" alt="테스트 다시하기" class="default point shadow">테스트 다시하기</a>
+    </div>
+    <div class="container footer bg-none" tabindex="0">
+      <p>본 테스트는 전문적 근거가 없으며 오로지 재미만을 위한 테스트이니 테스트 결과에 대해 맹신하지 않기를 바랍니다.</p>
+      <a href="info.html" class="info bg-none">개발 및 라이선스 정보</a>
+      <div class="meesoee">
+        <p>Developer & Designer<br><span>meesoee<span></p>
+        <a href="https://github.com/meesoee" target="_blank" alt="깃허브 링크"><i class="fab fa-github-alt"></i></a>
+        <a href="mailto:meesoeee@gmail.com" target="_blank" alt="메일 링크"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/share.js"></script>
+  </body>
+</html>

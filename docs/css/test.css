@@ -1,0 +1,96 @@
+@charset "utf-8";
+.container {
+  overflow: hidden;
+}
+
+.question {
+  display: none;
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
+.question .test-tit {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.question span {
+  font-family: 'MaplestoryOTFBold';
+  color: #006CFF;
+  background: #fff;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  line-height: 2.2;
+  margin-bottom: .5rem;
+}
+
+.question ul {
+  background: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.question ul li {
+  margin-bottom: 1rem;
+}
+
+.question ul li a {
+  text-decoration: none;
+  padding: 1.75rem;
+  border-radius: 15px;
+  color: #333;
+  font-size: 1.5rem;
+  border: 2px solid #C7E1F2;
+}
+
+.question ul li a:hover {
+  background: #f2f2f2;
+  transition: background-color .15s ease-in-out;
+}
+
+#finalBox {
+  display: none;
+  opacity: 0;
+  padding-top: 8rem;
+}
+#finalBox img {
+  width: 60px;
+  height: auto;
+  animation: rotate 1s infinite linear;
+}
+
+#finalBox p {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+/* #finalBox button {
+  margin-top: 5rem;
+  width: 100%;
+  color: #006CFF;
+  background: #fff;
+  border-radius: 3rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  border: none;
+}
+
+#finalBox button:hover {
+  background: #006CFF;
+  color: #fff;
+  transition: all .15s ease-in-out;
+} */
+
+@keyframes rotate {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+@media (max-width : 768px) {
+  .question .test-tit {
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/result.css">
+    <meta property="og:image" content="img/ogimg.png">
+    <meta property="og:image:width" content="800"/>
+    <meta property="og:image:height" content="400"/>
+    <script src="https://kit.fontawesome.com/e160cae21e.js" crossorigin="anonymous"></script>
+    <title>나의 밴드 적성은? &#127929;키보드!&#127929;</title>
+  </head>
+  <body>
+    <div class="container body my-result">
+      <h1 class="logo">밴드 적성 검사</h1>
+      <h3>당신의 결과는...</h3>
+      <div class="title shadow">
+        <img src="img/keyboard.png" alt="키보드를 두드리는 코뿔소">
+        <h1>키보드</h1>
+        <p class="description">단순한 피아노라고 생각하면 금물!<br>재주많은 당신이 꼭 필요한 키보드!</p>
+        <div class="result">
+          <p>건반을 두드리는 아름다운 멜로디부터, 때로는 신디사이저를 활용한 각양각색 악기소리까지 낼 수 있는 재주 많은 포지션이예요. 여러 악기를 간편하게 연주할 수 있을 뿐더러 음악의 퀄리티를 올려주는 키보드는 예술감각이 넘쳐 흐르는 당신의 음악 재능을 깨워줄 거예요! 키보드 중에는 절대음감을 가진 사람도 많던데, 혹시 당신도?</p>
+        </div>
+      </div>
+      <div class="recommend">
+        <h3>이 포지션은 어때요?</h3>
+        <img src="img/lead.png" alt="리드기타를 맡은 기린">
+        <h4>리드 기타</h4>
+        <p>독특한 멜로디 솔로를 연주하는 포지션들인만큼 서로의 빈자리를 대체할 수 있답니다! 자유자재로 포지션을 바꿔보아요~</p>
+      </div>
+      <div class="recommend">
+        <h3>나와 잘 어울리는 포지션</h3>
+        <img src="img/second.png" alt="기타를 연주하는 순록">
+        <h4>세컨 기타</h4>
+        <p>신디사이저 키보드와 기타의 조합이라면 어떤 음악이라도 거뜬히 소화해 낼 수 있을 정도로 만능 포지션이랍니다!</p>
+      </div>
+    </div>
+    <div class="container share">
+      <h3>내 결과 공유하기</h3>
+      <div class="wrap">
+        <a href="javascript:shareFacebook();" alt="페이스북 공유" id="facebookLink"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:shareTwitter();" alt="트위터 공유" id="twitterLink"><i class="fab fa-twitter"></i></a>
+        <a id="kakaoLink" href="javascript:shareKakao();" alt="카카오톡 공유"><i class="fas fa-comment"></i></a>
+      </div>
+      <input type="text" id="urlBlank" value="https://meesoee.github.com/band-test/docs/result-keyboard.html">
+      <button onclick="urlCopy();" id="urlButton" alt="공유주소 복사"><i class="fas fa-link"></i>링크 복사</button>
+    </div>
+    <div class="container bg-none">
+      <a href="index.html" alt="테스트 다시하기" class="default point shadow">테스트 다시하기</a>
+    </div>
+    <div class="container footer bg-none" tabindex="0">
+      <p>본 테스트는 전문적 근거가 없으며 오로지 재미만을 위한 테스트이니 테스트 결과에 대해 맹신하지 않기를 바랍니다.</p>
+      <a href="info.html" class="info bg-none">개발 및 라이선스 정보</a>
+      <div class="meesoee">
+        <p>Developer & Designer<br><span>meesoee<span></p>
+        <a href="https://github.com/meesoee" target="_blank" alt="깃허브 링크"><i class="fab fa-github-alt"></i></a>
+        <a href="mailto:meesoeee@gmail.com" target="_blank" alt="메일 링크"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/share.js"></script>
+  </body>
+</html>

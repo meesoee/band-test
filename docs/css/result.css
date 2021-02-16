@@ -1,0 +1,169 @@
+@charset "utf-8";
+.my-result .logo {
+  max-width: 300px;
+  max-height: 100px;
+}
+
+.my-result > h3 {
+  color: #fff;
+  margin: 1rem 0 3rem;
+}
+
+.my-result div {
+  background: #fff;
+  border-radius: 20px;
+}
+
+.my-result .title {
+  margin: 2rem 1rem;
+  padding: 2rem;
+}
+
+.my-result .title h1 {
+  font-size: 3rem;
+  color: #fff;
+  padding: 1rem;
+  max-width: 500px;
+  background: linear-gradient(135deg, #2470ff, #4bf0ff);
+  border-radius: 1rem;
+  margin: 1.5rem auto;
+}
+
+.my-result .title p.description {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.my-result .result {
+  padding: 1rem;
+}
+
+.title img {
+  height: 250px;
+}
+
+.recommend {
+  margin: 0 1rem;
+  padding: 2rem;
+  width: 280px;
+  display: inline-table;
+  min-height: 300px;
+}
+
+.recommend h3 {
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.recommend h4 {
+  color: #2470ff;
+  margin: 1rem 0;
+}
+
+.recommend img {
+  height: 100px;
+}
+
+.share h3 {
+  color: #fff;
+}
+
+.share .wrap {
+  padding: 1rem;
+}
+
+.share a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+  padding: 24px 12px 0px;
+  margin: .5rem;
+}
+
+.share a i {
+  font-size: 36px;
+}
+
+.share a#facebookLink {
+  color: #fff;
+  background: #4267B2;
+}
+.share a#facebookLink:hover {
+  background: #eee;
+  color: #4267B2;
+}
+.share a#twitterLink {
+  color: #fff;
+  background: #1DA1F2;
+}
+.share a#twitterLink:hover {
+  background: #eee;
+  color: #1DA1F2;
+}
+.share a#kakaoLink {
+  background: #F7E600;
+  color: #3A1D1D;
+}
+.share a#kakaoLink:hover {
+  background: #3A1D1D;
+  color: #F7E600;
+}
+
+
+#urlBlank, #urlButton {
+  font-size: 18px;
+  border: none;
+  padding: 20px;
+  margin: .25rem;
+}
+
+#urlBlank {
+  width: 250px;
+  font-family: 'Nanum Barun Gothic';
+  color: #333;
+  border-radius: 5px;
+}
+
+#urlButton {
+  border-radius: 50px;
+  color: #006CFF;
+  background: #fff;
+}
+
+#urlButton:hover {
+  background: #eee;
+}
+
+#urlButton i {
+  margin-right: .5rem;
+}
+
+@media (max-width : 768px) {
+  .my-result .title, .my-result .recommend {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .my-result .title + div.recommend {
+    margin-bottom: 1rem;
+  }
+
+  #urlButton {
+    width: 290px;
+    padding: 15px;
+  }
+
+  .share a {
+    width: 50px;
+    height: 50px;
+    padding: 18px 9px 0px;
+    margin: .25rem;
+  }
+
+  .share a i {
+    font-size: 32px;
+  }
+}
