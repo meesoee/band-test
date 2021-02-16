@@ -1,5 +1,5 @@
 
-Kakao.init('e2e5eb4914acb885b35a5125e7c893c3'); //api 키
+Kakao.init('04c04a7777b250cfa3a9d5d984bbfe41'); //api 키
 
 function shareFacebook() {
     window.open(
