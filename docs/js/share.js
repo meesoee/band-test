@@ -1,5 +1,4 @@
 
-Kakao.init('04c04a7777b250cfa3a9d5d984bbfe41'); //api 키
 
 function shareFacebook() {
     window.open(
@@ -13,6 +12,7 @@ function shareTwitter() {
   )
 };
 
+Kakao.init('04c04a7777b250cfa3a9d5d984bbfe41'); //api 키
 function shareKakao() {
   Kakao.Link.sendDefault({
     objectType: 'feed',
@@ -21,7 +21,6 @@ function shareKakao() {
       title: '밴드 적성 검사 - 나의 결과는?',
       description: '나와 잘 맞는 악기가 무엇인지 테스트해보세요!',
       link: {
-        mobileWebUrl: 'https://band-test.com',
         webUrl: 'https://band-test.com'
       }
     },
@@ -29,7 +28,6 @@ function shareKakao() {
       {
         title: '나도 테스트하기',
         link: {
-          mobileWebUrl: 'https://band-test.com',
           webUrl: 'https://band-test.com'
         }
       }
