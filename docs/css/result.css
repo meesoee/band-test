@@ -42,6 +42,10 @@
   height: 250px;
 }
 
+a.down-img:hover {
+  background: #eee;
+}
+
 .recommend {
   margin: 0 1rem;
   padding: 2rem;
