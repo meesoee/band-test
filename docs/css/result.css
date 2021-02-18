@@ -145,6 +145,8 @@
     margin-right: 0;
     width: 100%;
     box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .my-result .title + div.recommend {
