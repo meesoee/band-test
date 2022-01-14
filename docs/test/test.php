@@ -1,0 +1,3 @@
+<?php
+echo 'is it work?';
+?>
